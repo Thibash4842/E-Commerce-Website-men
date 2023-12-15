@@ -396,7 +396,7 @@ select {
         width: 170px;
         height: 34px;
         padding: 6px 10px;
-        font-size: 12px;
+        font-size: 10px;
     }
     
     .logo div {
@@ -450,7 +450,7 @@ select {
 
 @media screen and (min-width:600px) and (max-width:900px) {
     .naving {
-        height: 18vh;
+        height: 16vh;
     }
     .logo img {
         width: 200px;
