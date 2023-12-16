@@ -382,9 +382,9 @@ select {
 }
 
 @media screen and (min-width:300px) and (max-width:600px) {
-    .naving {
+    /* .naving {
         min-height: 28vh;
-    }
+    } */
     .logo {
         flex-direction: column;
         gap: 5px;
@@ -392,18 +392,18 @@ select {
     .logo img {
         width: 180px;
     }
-    .logo div input {
-        width: 170px;
-        height: 34px;
-        padding: 6px 10px;
-        font-size: 10px;
-    }
-    
     .logo div {
         border: 2px solid white;
         width: 220px;
         height: 37px;
     }
+    .logo div input {
+        width: 168px;
+        height: 34px;
+        padding: 6px 10px;
+        font-size: 10px;
+    }
+    
     .logo div i {
         color: white;
         border-left: 2px solid white;
