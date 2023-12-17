@@ -821,8 +821,8 @@ select {
         flex-direction: column;
     }
     .project {
-        justify-content: start;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
 
 }
