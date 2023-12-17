@@ -29,14 +29,14 @@ a p {
     width: 100%;
     color: white;
 }
-a p:hover {
+.navbar .shopco a p:hover {
     color: white;
     cursor: pointer;
     border-radius: 5px;
     background-color: skyblue;
     box-shadow: 2px 2px 6px black;
 }
-span:hover a {
+span:hover i {
     color: white;
 }
 /* <------------ logo style -------------> */
@@ -297,7 +297,7 @@ select {
 
 @media screen and (min-width:300px) and (max-width:600px) {
     .naving {
-        min-height: 31vh;
+        min-height: 22vh;
     }
     .logo {
         flex-direction: column;
@@ -306,6 +306,11 @@ select {
     .logo img {
         width: 180px;
     }
+    .logo div {
+        border: 2px solid white;
+        width: 220.2px;
+        height: 37px;
+    }
     .logo div input {
         width: 170px;
         height: 34px;
@@ -313,11 +318,6 @@ select {
         font-size: 12px;
     }
     
-    .logo div {
-        border: 2px solid white;
-        width: 220px;
-        height: 37px;
-    }
     .logo div i {
         color: white;
         border-left: 2px solid white;
@@ -330,12 +330,12 @@ select {
         top: 120px;
     }
     .navbar div {
-        width: 80%;
+        width: 100%;
         height: 90vh;
         padding: 20px;
         position: fixed;
-        background-color:rgba(0, 0, 0, 0.5);
-        color: white;
+        background-color: white;
+        color: black;
         display: flex;
         top: 165px;
         flex-direction: column;
@@ -352,7 +352,8 @@ select {
     }
     .navbar div .shopco {
         right: 0;
-        left: 60px;
+        left: 30px;
+        z-index: 10;
         
     }
     .slideshow-container .navigation {
@@ -364,7 +365,7 @@ select {
 
 @media screen and (min-width:600px) and (max-width:900px) {
     .naving {
-        height: 18vh;
+        height: 16vh;
     }
     .logo img {
         width: 200px;
@@ -391,15 +392,16 @@ select {
         width: 50%;
         height: 90vh;
         position: fixed;
-        background-color:rgba(0, 0, 0, 0.5);
+        background-color: white;
         display: flex;
-        color: white;
+        color: black;
         top: 95px;
         flex-direction: column;
         left: -100%;
         justify-content: start;
         align-items: center;
         gap: 20px;
+        padding: 20px;
     }
     .navbar .fa-bars {
         display: block;
@@ -410,7 +412,7 @@ select {
     .navbar div .shopco {
         right: 0;
         left: 60px;
-        
+        z-index: 10;        
     }
 }
 .navbar div .shopco1 {
@@ -581,15 +583,7 @@ select {
     color: green;
 }
 /* <----------- project-details----------> */
-@media screen and (min-width:300px) and (max-width:630px) {
-    .project hr {
-        display: none;
-    }
-    .cloth-container .shirt, aside {
-        flex-direction: column;
-    }
 
-}
 .project {
     display: flex;
     flex-wrap: wrap;
@@ -656,4 +650,16 @@ select {
     width: 200px;
     height: 80px;
     margin-top: 10px;
+}
+@media screen and (min-width:300px) and (max-width:630px) {
+    .project hr {
+        display: none;
+    }
+    .cloth-container .shirt, aside {
+        flex-direction: column;
+    }
+    .project {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
 }
