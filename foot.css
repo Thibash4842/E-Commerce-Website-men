@@ -301,7 +301,7 @@ select {
 
 @media screen and (min-width:300px) and (max-width:600px) {
     .naving {
-        min-height: 31vh;
+        min-height: 22vh;
     }
     .logo {
         flex-direction: column;
@@ -310,6 +310,11 @@ select {
     .logo img {
         width: 180px;
     }
+    .logo div {
+        border: 2px solid white;
+        width: 220.2px;
+        height: 37px;
+    }
     .logo div input {
         width: 170px;
         height: 34px;
@@ -317,11 +322,6 @@ select {
         font-size: 12px;
     }
     
-    .logo div {
-        border: 2px solid white;
-        width: 220px;
-        height: 37px;
-    }
     .logo div i {
         color: white;
         border-left: 2px solid white;
@@ -658,15 +658,6 @@ select {
     color: green;
 }
 /* <----------- project-details----------> */
-@media screen and (min-width:300px) and (max-width:630px) {
-    .project hr {
-        display: none;
-    }
-    .cloth-container .shirt, aside {
-        flex-direction: column;
-    }
-
-}
 .project {
     display: flex;
     flex-wrap: wrap;
@@ -733,4 +724,16 @@ select {
     width: 200px;
     height: 80px;
     margin-top: 10px;
+}
+@media screen and (min-width:300px) and (max-width:630px) {
+    .project hr {
+        display: none;
+    }
+    .cloth-container .shirt, aside {
+        flex-direction: column;
+    }
+    .project {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
 }
