@@ -383,7 +383,7 @@ select {
 
 @media screen and (min-width:300px) and (max-width:600px) {
     .naving {
-        min-height: 20vh;
+        min-height: 10vh;
     }
     .logo {
         flex-direction: column;
@@ -813,19 +813,7 @@ select {
     cursor: pointer;
 }
 /* <----------- project-details----------> */
-@media screen and (min-width:300px) and (max-width:630px) {
-    .project hr {
-        display: none;
-    }
-    .cloth-container .shirt, aside {
-        flex-direction: column;
-    }
-    .project {
-        justify-content: flex-start;
-        align-items: flex-start;
-    }
 
-}
 .project {
     display: flex;
     flex-wrap: wrap;
@@ -892,4 +880,17 @@ select {
     width: 200px;
     height: 80px;
     margin-top: 10px;
+}
+@media screen and (min-width:300px) and (max-width:630px) {
+    .project hr {
+        display: none;
+    }
+    .cloth-container .shirt, aside {
+        flex-direction: column;
+    }
+    .project {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
 }
