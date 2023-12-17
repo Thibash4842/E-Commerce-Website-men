@@ -27,7 +27,7 @@ a p {
     width: 100%;
     color: white;
 }
-a p:hover {
+.navbar .shopco a p:hover {
     color: white;
     cursor: pointer;
     border-radius: 5px;
@@ -38,9 +38,6 @@ span:hover i {
     color: white;
 }
 
-span:hover i {
-    color: white;
-} 
 /* <------------ logo style -------------> */
 .naving {
     width: 100%;
