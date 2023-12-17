@@ -28,15 +28,12 @@ a p {
     color: white;
     padding: 5px 20px;
 }
-a p:hover {
+.navbar .shopco a p:hover {
     color: white;
     cursor: pointer;
     border-radius: 5px;
     background-color: skyblue;
     box-shadow: 2px 2px 6px black;
-}
-a i {
-    color: black;
 }
 span:hover i {
     color: white;
