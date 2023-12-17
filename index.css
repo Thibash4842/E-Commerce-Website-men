@@ -383,7 +383,7 @@ select {
 
 @media screen and (min-width:300px) and (max-width:600px) {
     .naving {
-        min-height: 24vh;
+        min-height: 20vh;
     }
     .logo {
         flex-direction: column;
