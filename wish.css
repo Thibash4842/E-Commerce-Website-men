@@ -28,6 +28,9 @@ a p {
     width: 100%;
     color: white;
 }
+.navbar .shopco a,p {
+    color: black;   
+}
 .navbar .shopco a p:hover {
     color: white;
     cursor: pointer;
@@ -35,6 +38,7 @@ a p {
     background-color: skyblue;
     box-shadow: 2px 2px 6px black;
 }
+
 span:hover i {
     color: white;
 }
@@ -231,7 +235,6 @@ select {
     margin-right:10px ;
     padding: 5px 20px;
     font-weight:800;
-    color: black;
 }
 
 .navbar span:hover {
