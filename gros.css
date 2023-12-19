@@ -3,6 +3,10 @@
     margin: 0%;
     box-sizing: border-box;
 }
+.gross-container {
+    width: 100%;
+    min-height: 100%;
+}
 /* <------------ logo style -------------> */
 .naving {
     width: 100%;
@@ -204,4 +208,86 @@ a {
 }
 a h2 {
     color: black;
+}
+/* <----------- project-details----------> */
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+.details p:hover, h1:hover {
+    color: deepskyblue;
+}
+.details .image {
+    background-color: black;
+    text-align: center;
+}
+.details .logoo {
+    background-color: black;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    padding: 5px;
+}
+
+.my-profile {
+    background-color: black;
+    width: 100%;
+
+}
+.my-profile img {
+    width: 200px;
+}
+.my-profile section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    color: white;
+}
+.my-profile div {
+    width: 250px;
+    padding: 20px;
+}
+.my-profile h3 {
+    padding: 15px 0px;
+    display: block;
+}
+.my-profile p {
+    color: rgb(130, 122, 122);
+}
+.my-profile figure i {
+    font-size: 15px;
+    background-color: deepskyblue;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+}
+.project section img {
+    width: 200px;
+    height: 80px;
+    margin-top: 10px;
+}
+@media screen and (min-width:300px) and (max-width:630px) {
+    .project hr {
+        display: none;
+    }
+    .cloth-container .shirt, aside {
+        flex-direction: column;
+    }
+    .project {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
 }
