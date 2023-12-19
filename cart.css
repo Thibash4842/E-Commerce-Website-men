@@ -10,7 +10,7 @@
 /* <------------ logo style -------------> */
 .naving {
     width: 100%;
-    min-height:70vh ;
+    min-height:100vh ;
     background-image: url("./banner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
