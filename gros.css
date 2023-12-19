@@ -85,6 +85,11 @@
     .logo img {
         width: 180px;
     }
+    .logo div {
+        border: 2px solid white;
+        width: 220.2px;
+        height: 37px;
+    }
     .logo div input {
         width: 170px;
         height: 34px;
@@ -92,11 +97,7 @@
         font-size: 12px;
     }
     
-    .logo div {
-        border: 2px solid white;
-        width: 220px;
-        height: 37px;
-    }
+    
     .logo div i {
         color: white;
         border-left: 2px solid white;
