@@ -231,6 +231,7 @@ select {
     margin-right:10px ;
     padding: 5px 20px;
     font-weight:800;
+    color: black;
 }
 
 .navbar span:hover {
