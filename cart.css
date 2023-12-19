@@ -3,6 +3,10 @@
     margin: 0%;
     box-sizing: border-box;
 }
+.cart-container {
+    width: 100%;
+    min-height: 100vh;
+}
 /* <------------ logo style -------------> */
 .naving {
     width: 100%;
@@ -70,6 +74,9 @@
 .logo figure h3 {
     font-size: 14px;
 }
+header {
+    text-align: center;
+}
 a {
     text-decoration: none;
     width: 200px;
@@ -79,7 +86,7 @@ a h2 {
 }
 @media screen and (min-width:300px) and (max-width:600px) {
     .naving {
-        min-height: 31vh;
+        min-height: 18vh;
     }
     .logo {
         flex-direction: column;
@@ -88,6 +95,11 @@ a h2 {
     .logo img {
         width: 180px;
     }
+    .logo div {
+        border: 2px solid white;
+        width: 220.2px;
+        height: 37px;
+    }
     .logo div input {
         width: 170px;
         height: 34px;
@@ -95,11 +107,6 @@ a h2 {
         font-size: 12px;
     }
     
-    .logo div {
-        border: 2px solid white;
-        width: 220px;
-        height: 37px;
-    }
     .logo div i {
         color: white;
         border-left: 2px solid white;
@@ -204,4 +211,86 @@ header h2:hover {
 .container section button:hover {
     background-color: deepskyblue;
     cursor: pointer;
+}
+/* <----------- project-details----------> */
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+.details p:hover, h1:hover {
+    color: deepskyblue;
+}
+.details .image {
+    background-color: black;
+    text-align: center;
+}
+.details .logoo {
+    background-color: black;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    padding: 5px;
+}
+
+.my-profile {
+    background-color: black;
+    width: 100%;
+
+}
+.my-profile img {
+    width: 200px;
+}
+.my-profile section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    color: white;
+}
+.my-profile div {
+    width: 250px;
+    padding: 20px;
+}
+.my-profile h3 {
+    padding: 15px 0px;
+    display: block;
+}
+.my-profile p {
+    color: rgb(130, 122, 122);
+}
+.my-profile figure i {
+    font-size: 15px;
+    background-color: deepskyblue;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+}
+.project section img {
+    width: 200px;
+    height: 80px;
+    margin-top: 10px;
+}
+@media screen and (min-width:300px) and (max-width:630px) {
+    .project hr {
+        display: none;
+    }
+    .cloth-container .shirt, aside {
+        flex-direction: column;
+    }
+    .project {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
 }
