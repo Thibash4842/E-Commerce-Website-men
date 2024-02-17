@@ -290,5 +290,8 @@ a h2 {
         justify-content: flex-start;
         align-items: flex-start;
     }
+    .container {
+        margin-top: 6vh;
+    }
 
 }

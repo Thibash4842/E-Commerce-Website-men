@@ -292,5 +292,8 @@ header h2:hover {
         justify-content: flex-start;
         align-items: flex-start;
     }
+    .container {
+        margin-top: 9vh;
+    }
 
 }
